@@ -1,0 +1,5 @@
+pytest>=7.0
+ruff>=0.5
+pytesseract>=0.3.10
+opencv-python>=4.9
+Pillow>=10.0

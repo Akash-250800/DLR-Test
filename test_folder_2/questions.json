@@ -1,0 +1,17 @@
+[
+  {
+    "qid":"q1",
+    "aircraft_config":{"variant":"EC135_T3","serial_number":1105},
+    "question":"What is the maximum allowable crack length on the main rotor blade trailing edge before replacement?"
+  },
+  {
+    "qid":"q2",
+    "aircraft_config":{"variant":"EC135_T3","serial_number":1105},
+    "question":"During main rotor blade crack inspection, do I need eye protection and which tool should I use?"
+  },
+  {
+    "qid":"q3",
+    "aircraft_config":{"variant":"EC135_T3","serial_number":1105},
+    "question":"What torque should I apply when tightening the lead-lag damper upper bolt?"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {"triple_id":"T1","s":"Inspect_MainRotorBlade","p":"actsOn","o":"MainRotorBlade"},
+  {"triple_id":"T2","s":"Inspect_MainRotorBlade","p":"targetsDefect","o":"Crack"},
+  {"triple_id":"T3","s":"Crack","p":"hasMeasurementType","o":"CrackLength"},
+  {"triple_id":"T4","s":"Inspect_MainRotorBlade","p":"hasMeasurementLimit","o":"CrackLength<=2.0mm"},
+  {"triple_id":"T5","s":"Inspect_MainRotorBlade","p":"requiresTool","o":"Flashlight"},
+  {"triple_id":"T6","s":"Inspect_MainRotorBlade","p":"requiresWarning","o":"EyeProtection"},
+  {"triple_id":"T7","s":"Remove_LeadLagDamper","p":"actsOn","o":"LeadLagDamper"},
+  {"triple_id":"T8","s":"Remove_LeadLagDamper","p":"requiresTool","o":"TorqueWrench_10_60Nm"},
+  {"triple_id":"T9","s":"Remove_LeadLagDamper","p":"requiresTool","o":"HexKey_6mm"},
+  {"triple_id":"T10","s":"Tighten_LeadLagDamperBolt","p":"hasTorqueSpec","o":"24Nm"},
+  {"triple_id":"T11","s":"Tighten_LeadLagDamperBolt","p":"applicableTo","o":"EC135_P2"},
+  {"triple_id":"T12","s":"SB_MRB_MirrorInspection","p":"requiresTool","o":"Mirror"},
+  {"triple_id":"T13","s":"SB_MRB_MirrorInspection","p":"applicableSerialRange","o":"1080-1150"},
+  {"triple_id":"T14","s":"SB_MRB_MirrorInspection","p":"actsOn","o":"MainRotorBlade"},
+  {"triple_id":"T15","s":"EyeProtection","p":"isPPE","o":"true"}
+]
