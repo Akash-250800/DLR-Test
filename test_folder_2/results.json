@@ -1,0 +1,14 @@
+{
+  "q1": {
+    "answer": "The maximum allowable crack length on the main rotor blade trailing edge is 2.0 mm. If the crack length exceeds 2.0 mm, the blade must be replaced.",
+    "evidence_chunks": [
+      "C1"
+    ],
+    "evidence_triples": [
+      "T1",
+      "T2",
+      "T4"
+    ],
+    "applicable": true
+  }
+}
