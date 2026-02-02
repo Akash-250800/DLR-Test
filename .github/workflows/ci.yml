@@ -24,10 +24,10 @@ jobs:
           sudo apt-get install -y tesseract-ocr tesseract-ocr-eng
           sudo apt-get install -y libgl1
 
-      - name: Install Python dependencies
+      - name: Install Python dependencies (test_folder)
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r test_folder/requirements.txt
 
       - name: Lint
         run: make lint
