@@ -1,0 +1,118 @@
+[
+  {
+    "doc_id": "",
+    "doc_type": "task_card",
+    "fields": {
+      "task_card_no": "",
+      "work_order": "",
+      "aircraft_type": ".",
+      "registration": "",
+      "serial_no": "",
+      "ata_chapter": "",
+      "location": "",
+      "date": "",
+      "interval": "",
+      "applicability": ""
+    },
+    "field_confidence": {
+      "task_card_no": 0.0,
+      "work_order": 0.0,
+      "aircraft_type": 0.7,
+      "registration": 0.0,
+      "serial_no": 0.0,
+      "ata_chapter": 0.0,
+      "location": 0.0,
+      "date": 0.0,
+      "interval": 0.0,
+      "applicability": 0.0
+    },
+    "extraction_notes": "Missing work_order; Missing registration; Missing serial_no; Missing ata_chapter"
+  },
+  {
+    "doc_id": "IR-2201",
+    "doc_type": "inspection_report",
+    "fields": {
+      "report_id": "IR-2201",
+      "related_work_order": "Main",
+      "aircraft": "may operate after tape application and inspection sign-off.",
+      "registration": "",
+      "date": "",
+      "inspector": "",
+      "component": "",
+      "measurement_value_mm": "",
+      "limit_mm": "",
+      "applicability": ": EC135 P2+"
+    },
+    "field_confidence": {
+      "report_id": 0.9,
+      "related_work_order": 0.9,
+      "aircraft": 0.9,
+      "registration": 0.0,
+      "date": 0.0,
+      "inspector": 0.0,
+      "component": 0.0,
+      "measurement_value_mm": 0.0,
+      "limit_mm": 0.0,
+      "applicability": 0.9
+    },
+    "extraction_notes": "Missing registration; Missing date; Missing inspector; Missing component"
+  },
+  {
+    "doc_id": "TC-62-10-012",
+    "doc_type": "task_card",
+    "fields": {
+      "task_card_no": "TC-62-10-012",
+      "work_order": "Serial",
+      "aircraft_type": "; notify Engineering; create engineering disposition.",
+      "registration": "",
+      "serial_no": "No",
+      "ata_chapter": "",
+      "location": "",
+      "date": "",
+      "interval": "",
+      "applicability": ""
+    },
+    "field_confidence": {
+      "task_card_no": 0.9,
+      "work_order": 0.9,
+      "aircraft_type": 0.9,
+      "registration": 0.0,
+      "serial_no": 0.7,
+      "ata_chapter": 0.0,
+      "location": 0.0,
+      "date": 0.0,
+      "interval": 0.0,
+      "applicability": 0.0
+    },
+    "extraction_notes": "Missing registration; Missing ata_chapter; Missing location; Missing date"
+  },
+  {
+    "doc_id": "MIN-5530",
+    "doc_type": "material_issue_note",
+    "fields": {
+      "issue_note": "MIN-5530",
+      "date": "",
+      "work_order": "WO-AC-3145",
+      "location": "Hamburg Hangar 2",
+      "supplier": "CC—C“‘“;SCC*dCéRotonr Parts Europe BV.",
+      "destination": "",
+      "part_number": "Batch",
+      "quantity": "",
+      "batch_lot": "Lot",
+      "carrier": ": DHL Express"
+    },
+    "field_confidence": {
+      "issue_note": 0.9,
+      "date": 0.0,
+      "work_order": 0.9,
+      "location": 0.9,
+      "supplier": 0.9,
+      "destination": 0.0,
+      "part_number": 0.9,
+      "quantity": 0.0,
+      "batch_lot": 0.9,
+      "carrier": 0.9
+    },
+    "extraction_notes": "Missing date; Missing destination; Missing quantity"
+  }
+]
