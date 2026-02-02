@@ -18,7 +18,7 @@ jobs:
           python-version: "3.11"
           cache: pip
 
-      - name: Install system dependencies (OCR + OpenCV)
+      - name: Install system dependencies (OCR)
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-eng
@@ -29,8 +29,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r test_folder/requirements.txt
 
-      - name: Lint
-        run: make lint
+      - name: Lint (test_folder)
+        run: |
+          cd test_folder
+          make lint
 
-      - name: Run tests
-        run: make test
+      - name: Tests (test_folder)
+        run: |
+          cd test_folder
+          make test
